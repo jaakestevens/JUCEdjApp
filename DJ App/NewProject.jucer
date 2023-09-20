@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="vxmXQO" name="LabFinal" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              defines="JUCE_MODAL_LOOPS_PERMITTED=1">
+  <MAINGROUP id="I9AhBP" name="LabFinal">
+    <GROUP id="{7A87A8D9-B3C5-A552-DC0F-E9FC9AEE1F83}" name="Source"/>
+    <FILE id="bDdUwW" name="DeckGUI2.cpp" compile="1" resource="0" file="../LookAndFeelCustomisationTutorial/LabFinal/Source/DeckGUI2.cpp"/>
+    <FILE id="SSUB1P" name="DeckGUI2.h" compile="0" resource="0" file="../LookAndFeelCustomisationTutorial/LabFinal/Source/DeckGUI2.h"/>
+    <FILE id="tkYHdZ" name="DjAudioPlayer.cpp" compile="1" resource="0"
+          file="../LookAndFeelCustomisationTutorial/LabFinal/Source/DjAudioPlayer.cpp"/>
+    <FILE id="PSXvNv" name="DjAudioPlayer.h" compile="0" resource="0" file="../LookAndFeelCustomisationTutorial/LabFinal/Source/DjAudioPlayer.h"/>
+    <FILE id="pd7Lit" name="Interval.h" compile="0" resource="0" file="../LookAndFeelCustomisationTutorial/LabFinal/Source/Interval.h"/>
+    <FILE id="RaXQW8" name="Main.cpp" compile="1" resource="0" file="../LookAndFeelCustomisationTutorial/LabFinal/Source/Main.cpp"/>
+    <FILE id="URkGqO" name="MainComponent.cpp" compile="1" resource="0"
+          file="../LookAndFeelCustomisationTutorial/LabFinal/Source/MainComponent.cpp"/>
+    <FILE id="OeivYu" name="MainComponent.h" compile="0" resource="0" file="../LookAndFeelCustomisationTutorial/LabFinal/Source/MainComponent.h"/>
+    <FILE id="XboFfN" name="MyLook&amp;Feel.h" compile="0" resource="0"
+          file="../LookAndFeelCustomisationTutorial/LabFinal/Source/MyLook&amp;Feel.h"/>
+    <FILE id="MUxrCo" name="onePole.h" compile="0" resource="0" file="../LookAndFeelCustomisationTutorial/LabFinal/Source/onePole.h"/>
+    <FILE id="Ys3YXH" name="Sine.h" compile="0" resource="0" file="../LookAndFeelCustomisationTutorial/LabFinal/Source/Sine.h"/>
+    <FILE id="iJt0Ld" name="WaveformDisplay.cpp" compile="1" resource="0"
+          file="../LookAndFeelCustomisationTutorial/LabFinal/Source/WaveformDisplay.cpp"/>
+    <FILE id="eAhjrv" name="WaveformDisplay.h" compile="0" resource="0"
+          file="../LookAndFeelCustomisationTutorial/LabFinal/Source/WaveformDisplay.h"/>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="NewProject"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="NewProject"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
